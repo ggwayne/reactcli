@@ -40,6 +40,8 @@ const Levels = () => {
   const nutrient = 0.61;
 
   return (
+
+    
     <View style={styles.appContainer}>
       <StatusBar style="auto" />
 
@@ -50,7 +52,9 @@ const Levels = () => {
       <View style={styles.backgroundRectangle} />
       
       {/* Circles */}
+
       <CircularProgress value={58}/>
+ 
       {/* Background Rectangle for reservoir */}
       <View style={styles.backgroundRectangleReser} />
       
