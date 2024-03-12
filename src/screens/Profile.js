@@ -11,23 +11,23 @@ const Profile = () => {
   const navigation = useNavigation();
 
   const navigateToScreen1 = () => {
-    navigation.navigate('Levels');
+    //navigation.navigate('Levels');
   };
 
   const navigateToScreen2 = () => {
-    navigation.navigate('Control');
+    navigation.replace('ScreenControl');
   };
 
   const navigateToScreen3 = () => {
-    navigation.navigate('Updates');
+    navigation.replace('ScreenUpdates');
   };
 
   const navigateToScreen4 = () => {
-    navigation.navigate('Profile');
+    navigation.replace('ScreenProfile');
   };
 
   const handleEditProfile = () => {
-    navigation.navigate('Editprofile');
+    navigation.replace('Editprofile');
   };
 
   const handleSettings = () => {
@@ -35,7 +35,7 @@ const Profile = () => {
   };
 
   const handleLogout = () => {
-    navigation.navigate('Login');
+    navigation.replace('Login');
   };
 
   return (
@@ -46,7 +46,7 @@ const Profile = () => {
 
       <ScrollView contentContainerStyle={styles.contentContainer}>
         <View style={styles.profileInfo}>
-          <Image source={require('../assets/picprofile.jpg')} style={styles.profilePicture} />
+          
           <Text style={styles.fullName}>Juan Dela Cruz</Text>
 
           <Text style={styles.labelP}>Username:</Text>

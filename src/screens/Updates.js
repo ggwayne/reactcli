@@ -12,7 +12,7 @@ const Updates = () => {
   const navigation = useNavigation();
 
   const navigateToScreen1 = () => {
-    navigation.navigate('ScreenLevels');
+    //navigation.navigate('Levels');
   };
 
   const navigateToScreen2 = () => {
@@ -25,6 +25,7 @@ const Updates = () => {
 
   const navigateToScreen4 = () => {
     navigation.navigate('ScreenProfile');
+  
   };
 
   const beforepH = 7;
@@ -37,6 +38,15 @@ const Updates = () => {
     'Log 1: Tank 1 is full',
     'Log 2: Switched to rainwater',
     'Log 3: Nutrients Added',
+    'Log 4: Tank 1 is full',
+    'Log 5: Switched to rainwater',
+    'Log 6: Nutrients Added',
+    'Log 7: Tank 1 is full',
+    'Log 8: Switched to rainwater',
+    'Log 9: Nutrients Added',
+    'Log 10: Tank 1 is full',
+    'Log 11: Switched to rainwater',
+    'Log 12: Nutrients Added',
     'Log 4: Tank 1 is full',
     'Log 5: Switched to rainwater',
     'Log 6: Nutrients Added',

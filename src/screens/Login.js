@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = () => {
     console.log('Username:', username);
     console.log('Password:', password);
-    navigation.navigate('ScreenLevels');
+    navigation.replace('ScreenControl');
   };
 
   return (

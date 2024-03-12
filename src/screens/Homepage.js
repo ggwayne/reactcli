@@ -7,11 +7,11 @@ const Homepage = () => {
   const navigation = useNavigation();
 
   const pressLogin = () => {
-    navigation.navigate('Login');
+    navigation.replace('Login');
   };
 
   const pressRegister = () => {
-    navigation.navigate('Register');
+    navigation.replace('Register');
   };
 
   return (

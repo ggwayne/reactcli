@@ -8,23 +8,26 @@ import controlIcon from '../assets/controlIcon.png';
 import updatesIcon from '../assets/updatesIcon.png';
 import profileIcon from '../assets/profileIcon.png';
 
+import Levels from '../screens/Homepage';
+import Login from '../screens/Login';
+
 const Control = () => {
   const navigation = useNavigation(); // Assuming you're using React Navigation
 
   const navigateToScreen1 = () => {
-    navigation.navigate('ScreenLevels');
+    //navigation.navigate('Levels');
   };
 
   const navigateToScreen2 = () => {
-    navigation.navigate('Control');
+    navigation.replace('ScreenControl');
   };
 
   const navigateToScreen3 = () => {
-    navigation.navigate('ScreenUpdates');
+    navigation.replace('ScreenUpdates');
   };
 
   const navigateToScreen4 = () => {
-    navigation.navigate('ScreenProfile');
+    navigation.replace('ScreenProfile');
   };
 
     // State to track the active button
